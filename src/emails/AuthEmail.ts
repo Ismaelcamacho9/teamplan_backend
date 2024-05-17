@@ -26,7 +26,7 @@ export class AuthEmail {
 
   static sendPasswordResetToken = async (user: IEmail) => {
     const info = await transporter.sendMail({
-      from: "Teamplan <admin@teamplan.com>",
+      from: "Teamplan <teamplanproyecto@gmail.com>",
       to: user.email,
       subject: "Teamplan - Reestablece tu password",
       text: "Teamplan - Reestablece tu password",
